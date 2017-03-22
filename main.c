@@ -5,7 +5,7 @@
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Tue Mar 21 13:37:52 2017 GAILLAT Anthony
-** Last update Wed Mar 22 22:12:31 2017 GAILLAT Anthony
+** Last update Wed Mar 22 22:24:08 2017 GAILLAT Anthony
 */
 
 #include <stdio.h>
@@ -20,7 +20,6 @@ int             my_printf(const char *var,  ...)
 
   i = 0;
   va_start(list, var);
-
   while (var[i])
     {
       if (var[i] == '%')
@@ -31,9 +30,8 @@ int             my_printf(const char *var,  ...)
       else
         my_putchar(var[i]);
       i++;
-  }
+    }
   va_end(list);
-  
   return 0;
 }
 
@@ -48,6 +46,5 @@ int     main()
   my_printf("3 - %x\n", 42);
   my_printf("4 - %X\n", 42);
   my_printf("5 - %d%%\n", 42);
-
   return 0;
 }
