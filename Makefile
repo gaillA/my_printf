@@ -5,7 +5,7 @@
 ## Login   <gailla_a@etna-alternance.net>
 ## 
 ## Started on  Wed Mar 22 09:57:55 2017 GAILLAT Anthony
-## Last update Wed Mar 22 21:35:59 2017 GAILLAT Anthony
+## Last update Wed Mar 22 23:13:51 2017 GAILLAT Anthony
 ##
 
 CC	=	gcc
@@ -19,6 +19,7 @@ SRC	=	main.c			\
 		functions/f_putnbr.c	\
 		functions/f_octal.c	\
 		functions/f_percent.c	\
+		functions/f_exist.c	\
 
 OBJS	=	$(SRC:%.c=%.o)
 
