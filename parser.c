@@ -5,7 +5,7 @@
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Wed Mar 22 21:09:06 2017 GAILLAT Anthony
-** Last update Wed Mar 22 21:35:37 2017 GAILLAT Anthony
+** Last update Wed Mar 22 22:31:40 2017 GAILLAT Anthony
 */
 
 #include <stdio.h>
@@ -13,7 +13,7 @@
 #include <stdarg.h>
 #include "my_printf.h"
 
-int             parser(char c, va_list list)
+void            parser(char c, va_list list)
 {
   int           i;
   t_type        type[6] = {
@@ -32,5 +32,4 @@ int             parser(char c, va_list list)
         type[i].function(list);
       i++;
     }
-  return (0);
 }
