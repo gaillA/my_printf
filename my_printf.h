@@ -5,7 +5,7 @@
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Wed Mar 22 12:28:32 2017 GAILLAT Anthony
-** Last update Wed Mar 22 22:32:01 2017 GAILLAT Anthony
+** Last update Wed Mar 22 22:46:44 2017 GAILLAT Anthony
 */
 
 #include <unistd.h>
@@ -16,11 +16,11 @@
 #ifndef __CORE_H__
 #define __CORE_H__
 
-typedef struct  s_type
+typedef struct  s_arg
 {
   int           ch;
   void          (*function)(va_list);
-}               t_type;
+}               t_arg;
 
 void    my_putchar(char c);
 int     my_isneg(int n);

@@ -5,7 +5,7 @@
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Wed Mar 22 21:09:06 2017 GAILLAT Anthony
-** Last update Wed Mar 22 22:31:40 2017 GAILLAT Anthony
+** Last update Wed Mar 22 22:47:19 2017 GAILLAT Anthony
 */
 
 #include <stdio.h>
@@ -16,7 +16,7 @@
 void            parser(char c, va_list list)
 {
   int           i;
-  t_type        type[6] = {
+  t_arg        arg[6] = {
     {'c', &f_putchar},
     {'s', &f_putstr},
     {'i', &f_putnbr},
@@ -28,8 +28,8 @@ void            parser(char c, va_list list)
   i = 0;
   while (i < 6)
     {
-      if (type[i].ch == c)
-        type[i].function(list);
+      if (arg[i].ch == c)
+        arg[i].function(list);
       i++;
     }
 }
