@@ -1,20 +1,18 @@
 /*
-** my_put_nbr.c for my_put_nbr in /home/anthony/Documents/devcjour05
+** f_putnbr.c for my_printf in /home/anthony/Documents/my_printf/functions
 ** 
 ** Made by GAILLAT Anthony
 ** Login   <gailla_a@etna-alternance.net>
-e** 
-** Started on  Fri Sep 30 14:25:17 2016 GAILLAT Anthony
-** Last update Wed Mar 22 16:33:06 2017 GAILLAT Anthony
+** 
+** Started on  Wed Mar 22 22:15:28 2017 GAILLAT Anthony
+** Last update Wed Mar 22 22:15:29 2017 GAILLAT Anthony
 */
+
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include "../libmy/my_put_nbr.c"
-
-void	my_putchar(char c);
-void	my_putstr(char *str);
+#include "../my_printf.h"
 
 void    f_putnbr(va_list list)
 {

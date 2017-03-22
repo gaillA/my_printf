@@ -1,12 +1,13 @@
 /*
-** my_putchar.c for my_putchar in 
+** f_putchar.c for my_printf in /home/anthony/Documents/my_printf/functions
 ** 
 ** Made by GAILLAT Anthony
 ** Login   <gailla_a@etna-alternance.net>
 ** 
-** Started on  Sat Oct  1 19:50:34 2016 GAILLAT Anthony
-** Last update Wed Mar 22 15:57:30 2017 GAILLAT Anthony
+** Started on  Wed Mar 22 22:14:27 2017 GAILLAT Anthony
+** Last update Wed Mar 22 22:14:30 2017 GAILLAT Anthony
 */
+
 
 #include <unistd.h>
 #include <stdio.h>

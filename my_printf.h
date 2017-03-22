@@ -1,11 +1,11 @@
 /*
-** main.h for Main in /home/anthony/printf
+** my_printf.h for my_printf in /home/anthony/printf
 ** 
 ** Made by GAILLAT Anthony
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Wed Mar 22 12:28:32 2017 GAILLAT Anthony
-** Last update Wed Mar 22 16:28:21 2017 GAILLAT Anthony
+** Last update Wed Mar 22 22:13:07 2017 GAILLAT Anthony
 */
 
 #include <unistd.h>
@@ -39,8 +39,12 @@ char    *my_strstr(char *str, char *to_find);
 char    *my_strdup(char *str);
 char    *my_strndup(char *str, int n);
 char    **my_str_to_wordtab(char *str);
+int     my_printf(const char *var,  ...);
+int     parser(char c, va_list list);
 void    f_putchar(va_list list);
 void    f_putstr(va_list list);
 void    f_putnbr(va_list list);
+void    f_octal(va_list list);
+void    f_percent();
 
 #endif

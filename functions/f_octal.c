@@ -1,18 +1,26 @@
 /*
-** f_octal.c for octal in /home/anthony/printf
+** f_octal.c for my_printf in /home/anthony/printf
 ** 
 ** Made by GAILLAT Anthony
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Wed Mar 22 16:46:55 2017 GAILLAT Anthony
-** Last update Wed Mar 22 16:52:13 2017 GAILLAT Anthony
+** Last update Wed Mar 22 22:13:49 2017 GAILLAT Anthony
 */
 
-int     f_octal(int d)
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <math.h>
+#include "../my_printf.h"
+
+void     f_octal(va_list list)
 {
+  int   d;
   int   o;
   int   i;
 
+  d = va_arg(list, int);
   o = 0;
   i = 1;
 
@@ -23,5 +31,5 @@ int     f_octal(int d)
       i *= 10;
     }
 
-  return o;
+  my_put_nbr(o);
 }
