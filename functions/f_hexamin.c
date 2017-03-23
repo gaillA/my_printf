@@ -5,7 +5,7 @@
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Wed Mar 22 16:46:55 2017 GAILLAT Anthony
-** Last update Thu Mar 23 12:34:29 2017 GAILLAT Anthony
+** Last update Thu Mar 23 14:14:38 2017 GAILLAT Anthony
 */
 
 #include <stdio.h>
@@ -22,7 +22,7 @@ void            f_hexamin(va_list list)
   char          *str;
 
   str = "0123456789abcdef";
-  n = va_arg(list, int);
+  n = va_arg(list, unsigned int);
   d = 1;
   while ((n / d) >= my_strlen(str))
     d *= my_strlen(str);
