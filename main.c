@@ -5,7 +5,7 @@
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Tue Mar 21 13:37:52 2017 GAILLAT Anthony
-** Last update Thu Mar 23 00:11:44 2017 GAILLAT Anthony
+** Last update Thu Mar 23 10:30:26 2017 GAILLAT Anthony
 */
 
 #include <stdio.h>
@@ -44,7 +44,7 @@ int     main()
   my_printf("1 - %o\n", 42);
   my_printf("2 - %u\n", (unsigned int)4200000000);
   my_printf("3 - %x\n", 42);
-  my_printf("4 - %X%h\n", 42);
+  my_printf("4 - %X\n", 42);
   my_printf("5 - %d%%\n", 42);
   return (0);
 }

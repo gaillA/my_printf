@@ -5,7 +5,7 @@
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Wed Mar 22 12:28:32 2017 GAILLAT Anthony
-** Last update Wed Mar 22 23:57:17 2017 GAILLAT Anthony
+** Last update Thu Mar 23 12:35:18 2017 GAILLAT Anthony
 */
 
 #include <unistd.h>
@@ -45,7 +45,10 @@ void    f_putchar(va_list list);
 void    f_putstr(va_list list);
 void    f_putnbr(va_list list);
 void    f_octal(va_list list);
+void    f_uputnbr(va_list list);
 void    f_percent();
 int     f_exist(const char *var);
+void    f_hexamaj(va_list list);
+void    f_hexamin(va_list list);
 
 #endif

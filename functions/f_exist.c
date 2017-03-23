@@ -5,7 +5,7 @@
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Wed Mar 22 23:04:52 2017 GAILLAT Anthony
-** Last update Thu Mar 23 00:08:47 2017 GAILLAT Anthony
+** Last update Thu Mar 23 12:36:11 2017 GAILLAT Anthony
 */
 
 #include <stdio.h>
@@ -25,7 +25,7 @@ int     f_exist(const char *var)
   j = 0;
   k = 0;
   l = 0;
-  arg = "csido%";
+  arg = "csidouxX%";
   
   while (var[i]) {
     if (var[i] == '%') { 
