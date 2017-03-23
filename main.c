@@ -5,10 +5,9 @@
 ** Login   <gailla_a@etna-alternance.net>
 ** 
 ** Started on  Thu Mar 23 13:24:18 2017 GAILLAT Anthony
-** Last update Thu Mar 23 13:45:11 2017 GAILLAT Anthony
+** Last update Thu Mar 23 14:26:41 2017 GAILLAT Anthony
 */
 
-/*int     my_printf(const char *var,  ...);*/
 #include "my_printf.h"
 
 int     main()
